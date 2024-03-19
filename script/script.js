@@ -138,7 +138,7 @@ async function stopGame() {
     <div><span>ВЫИГРЫШ</span> ${stop.points_won} БАЛЛОВ</div>
     `
     
-    playBtn.setAttribute('disabled')
+    // playBtn.setAttribute('disabled')
     setTimeout(() => {
       popUp.classList.remove('active')
     }, 3000);
